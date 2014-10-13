@@ -29,7 +29,19 @@ The fourth verse page should link to the homepage
 ### Extra
 
 ```
-Create a single controller / view that handles all the verses
+Only use the index view to serve all pages
+
+For example:
+
+def verse2
+  render "index"
+end
+
+def verse3
+  render "index"
+end
+
+HINT: you'll need an if-statement in your view
 ```
 
 ## Wireframes
