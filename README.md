@@ -29,7 +29,7 @@ The fourth verse page should link to the homepage
 ### Extra
 
 ```
-Create a single controller that handles all the verses
+Create a single controller / view that handles all the verses
 ```
 
 ## Wireframes
