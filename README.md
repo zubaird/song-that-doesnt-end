@@ -48,11 +48,11 @@ NOTE:
 
 ### Extra
 
-```
 Only use the index view to serve all pages
 
 For example:
 
+```
 def verse2
   render "index"
 end
@@ -60,9 +60,10 @@ end
 def verse3
   render "index"
 end
+```
 
 HINT: you'll need an if-statement in your view
-```
+
 
 ## Wireframes
 
