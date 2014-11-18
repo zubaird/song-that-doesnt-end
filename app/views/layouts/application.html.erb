@@ -10,8 +10,13 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+
     <div class="container text-center">
+      <%= link_to "Home", root_path %>
+      <%= link_to "Youtube", "https://www.youtube.com/watch?v=HNTxr2NJHa0" %>
       <%= yield %>
     </div>
   </body>
 </html>
+
+<%= Time.now %>
